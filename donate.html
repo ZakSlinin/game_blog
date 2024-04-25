@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="static/img/about_games_logo.png" alt="">
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contacts.html">CONTACTS</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+        </ul>
+    </div>
+    
+    <div class="main__donate">
+        <h1>Спасибо!</h1>
+        <form action="#" method="get">
+            <ul>
+                <li>
+                    <label for="name">Введите имя</label>
+                    <input type="text" id="name" name="name" placeholder="имя" required>
+                </li>
+                <li>
+                    <label for="email">Введите почту</label>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </li>
+                <li>
+                    <label for="comment">Введите комментарий</label>
+                    <textarea name="comment" id="comment" placeholder="напишите приятное"></textarea>
+                </li>
+                <li>
+                    <label for="choice">Ваш выбор</label>
+                    <select name="choice" id="choice">
+                        <option value="0" selected>Не выбранно</option>
+                        <option value="1">на поддержания проекта</option>
+                        <option value="2">на кофе</option>
+                    </select>
+                </li>
+                <li>
+                    <button type="submit">Отправить</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="game__design">
+            <img src="static/img/about_games_logo.png" alt="">
+            <h3>About Games, Inc.</h3>
+            <p>© 2024 About Games. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
